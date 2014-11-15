@@ -10,8 +10,10 @@ The photoresistor is a light-dependent resistor. Its resistance increases as lig
 vice versa.For more information read here http://en.wikipedia.org/wiki/Photoresistor
 
 Our "smart" LED is made up of two small circuits.
+
 -Firstly, it is the photoresistor's circuit that counts the ambient light.It is just a voltage divider circuit.
 (see the schematic for more info)
+
 -Also, it is the LED 's circuit. It is just a resistor connected in series with te LED we like to turn on and off.
 
 The Arduino's analog pin A0 is connected to the Vout of the first circuit.
