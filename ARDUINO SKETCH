@@ -1,0 +1,21 @@
+int led=7;
+
+void setup(){
+ pinMode(led,OUTPUT);
+}
+
+
+void loop(){
+ int count_light;
+ count_light=analogRead(0);
+ delay(10); 
+ if (count_light > 1000 ) //if it is dark, then the photoresistor's resistance will be high enough.So,the Vout will be high too.
+ {
+   digitalWrite(led,HIGH); //it is dark so turn on the LED
+ }
+ else
+ {
+  digitalWrite(led,LOW); 
+ }
+}
+
