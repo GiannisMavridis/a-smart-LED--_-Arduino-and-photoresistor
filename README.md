@@ -22,5 +22,8 @@ The Arduino's digital pin 7 controls the LED .
 The idea is to compare the value,that we read from the pin A0,with a threshold and then to decide whether we should or not
 turn on the LED.
 
+PAY ATTENTION:
+Υou must measure the photoresistor's resistance when the ambient light is enough.Μy measurement for my photoresistor was 2KΩ...this is why i used a 2KΩ resistor in series with the photoresistance..also my measurement for the resistance when there was no ambient light was 120KΩ .
+
 
 
